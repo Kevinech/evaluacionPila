@@ -38,7 +38,8 @@
             this.tbSalario = new System.Windows.Forms.TextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnVerTope = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliminar = new System.Windows.Forms.Button();
+            this.lbResultados = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // lblNombre
@@ -120,24 +121,34 @@
             this.btnVerTope.Name = "btnVerTope";
             this.btnVerTope.Size = new System.Drawing.Size(145, 104);
             this.btnVerTope.TabIndex = 9;
-            this.btnVerTope.Text = "button2";
+            this.btnVerTope.Text = "VerTope";
             this.btnVerTope.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEliminar
             // 
-            this.button3.Location = new System.Drawing.Point(521, 197);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 131);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliminar.Location = new System.Drawing.Point(521, 197);
+            this.btnEliminar.Name = "btnEliminar";
+            this.btnEliminar.Size = new System.Drawing.Size(163, 131);
+            this.btnEliminar.TabIndex = 10;
+            this.btnEliminar.Text = "Eliminar";
+            this.btnEliminar.UseVisualStyleBackColor = true;
+            // 
+            // lbResultados
+            // 
+            this.lbResultados.FormattingEnabled = true;
+            this.lbResultados.ItemHeight = 16;
+            this.lbResultados.Location = new System.Drawing.Point(84, 376);
+            this.lbResultados.Name = "lbResultados";
+            this.lbResultados.Size = new System.Drawing.Size(486, 308);
+            this.lbResultados.TabIndex = 11;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(881, 770);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.lbResultados);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnVerTope);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.tbSalario);
@@ -167,7 +178,8 @@
         private System.Windows.Forms.TextBox tbSalario;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnVerTope;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.ListBox lbResultados;
     }
 }
 
