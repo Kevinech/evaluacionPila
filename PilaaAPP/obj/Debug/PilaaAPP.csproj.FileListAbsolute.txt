@@ -1,0 +1,11 @@
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\bin\Debug\PilaaAPP.exe.config
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\bin\Debug\PilaaAPP.exe
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\bin\Debug\PilaaAPP.pdb
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.csproj.AssemblyReference.cache
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.Form1.resources
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.Properties.Resources.resources
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.csproj.GenerateResource.cache
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.csproj.CoreCompileInputs.cache
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.exe
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.pdb
+C:\Users\romme\source\repos\evaluacionPila\PilaaAPP\obj\Debug\PilaaAPP.exe.config

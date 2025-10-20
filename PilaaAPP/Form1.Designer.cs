@@ -32,7 +32,7 @@
             this.tbNombre = new System.Windows.Forms.TextBox();
             this.lblApellidos = new System.Windows.Forms.Label();
             this.lblCargo = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbApellidos = new System.Windows.Forms.TextBox();
             this.tbCargo = new System.Windows.Forms.TextBox();
             this.lblSalario = new System.Windows.Forms.Label();
             this.tbSalario = new System.Windows.Forms.TextBox();
@@ -76,12 +76,12 @@
             this.lblCargo.TabIndex = 3;
             this.lblCargo.Text = "Cargo";
             // 
-            // textBox1
+            // tbApellidos
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 141);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 22);
-            this.textBox1.TabIndex = 4;
+            this.tbApellidos.Location = new System.Drawing.Point(163, 141);
+            this.tbApellidos.Name = "tbApellidos";
+            this.tbApellidos.Size = new System.Drawing.Size(171, 22);
+            this.tbApellidos.TabIndex = 4;
             // 
             // tbCargo
             // 
@@ -114,6 +114,7 @@
             this.btnAgregar.TabIndex = 8;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnVerTope
             // 
@@ -123,6 +124,7 @@
             this.btnVerTope.TabIndex = 9;
             this.btnVerTope.Text = "VerTope";
             this.btnVerTope.UseVisualStyleBackColor = true;
+            this.btnVerTope.Click += new System.EventHandler(this.btnVerTope_Click);
             // 
             // btnEliminar
             // 
@@ -132,15 +134,17 @@
             this.btnEliminar.TabIndex = 10;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // lbResultados
             // 
             this.lbResultados.FormattingEnabled = true;
             this.lbResultados.ItemHeight = 16;
-            this.lbResultados.Location = new System.Drawing.Point(84, 376);
+            this.lbResultados.Location = new System.Drawing.Point(66, 344);
             this.lbResultados.Name = "lbResultados";
             this.lbResultados.Size = new System.Drawing.Size(486, 308);
             this.lbResultados.TabIndex = 11;
+            this.lbResultados.SelectedIndexChanged += new System.EventHandler(this.lbResultados_SelectedIndexChanged);
             // 
             // Form1
             // 
@@ -154,7 +158,7 @@
             this.Controls.Add(this.tbSalario);
             this.Controls.Add(this.lblSalario);
             this.Controls.Add(this.tbCargo);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbApellidos);
             this.Controls.Add(this.lblCargo);
             this.Controls.Add(this.lblApellidos);
             this.Controls.Add(this.tbNombre);
@@ -172,7 +176,7 @@
         private System.Windows.Forms.TextBox tbNombre;
         private System.Windows.Forms.Label lblApellidos;
         private System.Windows.Forms.Label lblCargo;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbApellidos;
         private System.Windows.Forms.TextBox tbCargo;
         private System.Windows.Forms.Label lblSalario;
         private System.Windows.Forms.TextBox tbSalario;
