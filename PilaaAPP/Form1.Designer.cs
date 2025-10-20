@@ -40,95 +40,108 @@
             this.btnVerTope = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.lbResultados = new System.Windows.Forms.ListBox();
+            this.lblPila = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(78, 79);
+            this.lblNombre.Location = new System.Drawing.Point(58, 64);
+            this.lblNombre.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(59, 16);
+            this.lblNombre.Size = new System.Drawing.Size(47, 13);
             this.lblNombre.TabIndex = 0;
             this.lblNombre.Text = "Nombre:";
             // 
             // tbNombre
             // 
-            this.tbNombre.Location = new System.Drawing.Point(163, 79);
+            this.tbNombre.Location = new System.Drawing.Point(122, 64);
+            this.tbNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbNombre.Name = "tbNombre";
-            this.tbNombre.Size = new System.Drawing.Size(171, 22);
+            this.tbNombre.Size = new System.Drawing.Size(129, 20);
             this.tbNombre.TabIndex = 1;
             // 
             // lblApellidos
             // 
             this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Location = new System.Drawing.Point(78, 141);
+            this.lblApellidos.Location = new System.Drawing.Point(58, 115);
+            this.lblApellidos.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(64, 16);
+            this.lblApellidos.Size = new System.Drawing.Size(49, 13);
             this.lblApellidos.TabIndex = 2;
             this.lblApellidos.Text = "Apellidos";
             // 
             // lblCargo
             // 
             this.lblCargo.AutoSize = true;
-            this.lblCargo.Location = new System.Drawing.Point(93, 200);
+            this.lblCargo.Location = new System.Drawing.Point(70, 162);
+            this.lblCargo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCargo.Name = "lblCargo";
-            this.lblCargo.Size = new System.Drawing.Size(44, 16);
+            this.lblCargo.Size = new System.Drawing.Size(35, 13);
             this.lblCargo.TabIndex = 3;
             this.lblCargo.Text = "Cargo";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(163, 141);
+            this.textBox1.Location = new System.Drawing.Point(122, 115);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(171, 22);
+            this.textBox1.Size = new System.Drawing.Size(129, 20);
             this.textBox1.TabIndex = 4;
             // 
             // tbCargo
             // 
-            this.tbCargo.Location = new System.Drawing.Point(163, 200);
+            this.tbCargo.Location = new System.Drawing.Point(122, 162);
+            this.tbCargo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbCargo.Name = "tbCargo";
-            this.tbCargo.Size = new System.Drawing.Size(171, 22);
+            this.tbCargo.Size = new System.Drawing.Size(129, 20);
             this.tbCargo.TabIndex = 5;
             // 
             // lblSalario
             // 
             this.lblSalario.AutoSize = true;
-            this.lblSalario.Location = new System.Drawing.Point(81, 254);
+            this.lblSalario.Location = new System.Drawing.Point(61, 206);
+            this.lblSalario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSalario.Name = "lblSalario";
-            this.lblSalario.Size = new System.Drawing.Size(50, 16);
+            this.lblSalario.Size = new System.Drawing.Size(39, 13);
             this.lblSalario.TabIndex = 6;
             this.lblSalario.Text = "Salario";
             // 
             // tbSalario
             // 
-            this.tbSalario.Location = new System.Drawing.Point(163, 254);
+            this.tbSalario.Location = new System.Drawing.Point(122, 206);
+            this.tbSalario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tbSalario.Name = "tbSalario";
-            this.tbSalario.Size = new System.Drawing.Size(171, 22);
+            this.tbSalario.Size = new System.Drawing.Size(129, 20);
             this.tbSalario.TabIndex = 7;
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(391, 59);
+            this.btnAgregar.Location = new System.Drawing.Point(293, 48);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(179, 104);
+            this.btnAgregar.Size = new System.Drawing.Size(134, 84);
             this.btnAgregar.TabIndex = 8;
             this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // btnVerTope
             // 
-            this.btnVerTope.Location = new System.Drawing.Point(627, 59);
+            this.btnVerTope.Location = new System.Drawing.Point(470, 48);
+            this.btnVerTope.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVerTope.Name = "btnVerTope";
-            this.btnVerTope.Size = new System.Drawing.Size(145, 104);
+            this.btnVerTope.Size = new System.Drawing.Size(109, 84);
             this.btnVerTope.TabIndex = 9;
             this.btnVerTope.Text = "VerTope";
             this.btnVerTope.UseVisualStyleBackColor = true;
+            this.btnVerTope.Click += new System.EventHandler(this.btnVerTope_Click);
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(521, 197);
+            this.btnEliminar.Location = new System.Drawing.Point(391, 160);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(163, 131);
+            this.btnEliminar.Size = new System.Drawing.Size(122, 106);
             this.btnEliminar.TabIndex = 10;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -136,17 +149,28 @@
             // lbResultados
             // 
             this.lbResultados.FormattingEnabled = true;
-            this.lbResultados.ItemHeight = 16;
-            this.lbResultados.Location = new System.Drawing.Point(84, 376);
+            this.lbResultados.Location = new System.Drawing.Point(63, 306);
+            this.lbResultados.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lbResultados.Name = "lbResultados";
-            this.lbResultados.Size = new System.Drawing.Size(486, 308);
+            this.lbResultados.Size = new System.Drawing.Size(366, 251);
             this.lbResultados.TabIndex = 11;
+            // 
+            // lblPila
+            // 
+            this.lblPila.AutoSize = true;
+            this.lblPila.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblPila.Location = new System.Drawing.Point(71, 252);
+            this.lblPila.Name = "lblPila";
+            this.lblPila.Size = new System.Drawing.Size(117, 20);
+            this.lblPila.TabIndex = 12;
+            this.lblPila.Text = "Mostrar ultimo: ";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(881, 770);
+            this.ClientSize = new System.Drawing.Size(661, 609);
+            this.Controls.Add(this.lblPila);
             this.Controls.Add(this.lbResultados);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnVerTope);
@@ -159,6 +183,7 @@
             this.Controls.Add(this.lblApellidos);
             this.Controls.Add(this.tbNombre);
             this.Controls.Add(this.lblNombre);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "PilaAPP";
             this.ResumeLayout(false);
@@ -180,6 +205,7 @@
         private System.Windows.Forms.Button btnVerTope;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.ListBox lbResultados;
+        private System.Windows.Forms.Label lblPila;
     }
 }
 

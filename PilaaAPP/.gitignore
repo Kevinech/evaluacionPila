@@ -1,0 +1,6 @@
+# Carpeta privada de Visual Studio
+/.vs/
+
+# Carpetas de archivos compilados
+/bin/
+/obj/
